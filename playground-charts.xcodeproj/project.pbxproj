@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE4C68C52A8C6FD7007A09A6 /* CustomCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4C68C42A8C6FD7007A09A6 /* CustomCharts.swift */; };
 		FEE53A2D2A837355005F122D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE53A2C2A837355005F122D /* AppDelegate.swift */; };
 		FEE53A2F2A837355005F122D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE53A2E2A837355005F122D /* SceneDelegate.swift */; };
 		FEE53A312A837355005F122D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE53A302A837355005F122D /* ViewController.swift */; };
 		FEE53A342A837355005F122D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE53A322A837355005F122D /* Main.storyboard */; };
 		FEE53A362A837356005F122D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE53A352A837356005F122D /* Assets.xcassets */; };
 		FEE53A392A837356005F122D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE53A372A837356005F122D /* LaunchScreen.storyboard */; };
+		FEE53A422A8375B5005F122D /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = FEE53A412A8375B5005F122D /* Charts */; };
+		FEF25D702A97177400C0A130 /* InfoMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF25D6F2A97177400C0A130 /* InfoMarkerView.swift */; };
+		FEF25D722A97178200C0A130 /* InfoMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF25D712A97178200C0A130 /* InfoMarkerView.xib */; };
+		FEF25D742A9718B000C0A130 /* OthersCommonOMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF25D732A9718B000C0A130 /* OthersCommonOMO.swift */; };
+		FEF25D772A973F8000C0A130 /* ChartMiniTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF25D752A973F8000C0A130 /* ChartMiniTableViewCell.swift */; };
+		FEF25D782A973F8000C0A130 /* ChartMiniTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF25D762A973F8000C0A130 /* ChartMiniTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE4C68C42A8C6FD7007A09A6 /* CustomCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCharts.swift; sourceTree = "<group>"; };
 		FEE53A292A837355005F122D /* playground-charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "playground-charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE53A2C2A837355005F122D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEE53A2E2A837355005F122D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,11 @@
 		FEE53A352A837356005F122D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEE53A382A837356005F122D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEE53A3A2A837356005F122D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF25D6F2A97177400C0A130 /* InfoMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMarkerView.swift; sourceTree = "<group>"; };
+		FEF25D712A97178200C0A130 /* InfoMarkerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoMarkerView.xib; sourceTree = "<group>"; };
+		FEF25D732A9718B000C0A130 /* OthersCommonOMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersCommonOMO.swift; sourceTree = "<group>"; };
+		FEF25D752A973F8000C0A130 /* ChartMiniTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartMiniTableViewCell.swift; sourceTree = "<group>"; };
+		FEF25D762A973F8000C0A130 /* ChartMiniTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartMiniTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE53A422A8375B5005F122D /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,12 @@
 				FEE53A352A837356005F122D /* Assets.xcassets */,
 				FEE53A372A837356005F122D /* LaunchScreen.storyboard */,
 				FEE53A3A2A837356005F122D /* Info.plist */,
+				FE4C68C42A8C6FD7007A09A6 /* CustomCharts.swift */,
+				FEF25D6F2A97177400C0A130 /* InfoMarkerView.swift */,
+				FEF25D712A97178200C0A130 /* InfoMarkerView.xib */,
+				FEF25D732A9718B000C0A130 /* OthersCommonOMO.swift */,
+				FEF25D752A973F8000C0A130 /* ChartMiniTableViewCell.swift */,
+				FEF25D762A973F8000C0A130 /* ChartMiniTableViewCell.xib */,
 			);
 			path = "playground-charts";
 			sourceTree = "<group>";
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = "playground-charts";
+			packageProductDependencies = (
+				FEE53A412A8375B5005F122D /* Charts */,
+			);
 			productName = "playground-charts";
 			productReference = FEE53A292A837355005F122D /* playground-charts.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,9 @@
 				Base,
 			);
 			mainGroup = FEE53A202A837355005F122D;
+			packageReferences = (
+				FEE53A402A8375B5005F122D /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = FEE53A2A2A837355005F122D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEE53A392A837356005F122D /* LaunchScreen.storyboard in Resources */,
+				FEF25D722A97178200C0A130 /* InfoMarkerView.xib in Resources */,
 				FEE53A362A837356005F122D /* Assets.xcassets in Resources */,
+				FEF25D782A973F8000C0A130 /* ChartMiniTableViewCell.xib in Resources */,
 				FEE53A342A837355005F122D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEE53A312A837355005F122D /* ViewController.swift in Sources */,
+				FE4C68C52A8C6FD7007A09A6 /* CustomCharts.swift in Sources */,
 				FEE53A2D2A837355005F122D /* AppDelegate.swift in Sources */,
+				FEF25D772A973F8000C0A130 /* ChartMiniTableViewCell.swift in Sources */,
+				FEF25D742A9718B000C0A130 /* OthersCommonOMO.swift in Sources */,
+				FEF25D702A97177400C0A130 /* InfoMarkerView.swift in Sources */,
 				FEE53A2F2A837355005F122D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +327,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +356,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +392,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FEE53A402A8375B5005F122D /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FEE53A412A8375B5005F122D /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEE53A402A8375B5005F122D /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FEE53A212A837355005F122D /* Project object */;
 }
