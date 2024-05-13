@@ -145,6 +145,14 @@ class ViewController: UIViewController {
         lineChartEntries2 = makeRandomChartDataset()
         setChartData()
     }
+    @IBAction func goToPiechart(_ sender: Any) {
+        performSegue(withIdentifier: "PiechViewController", sender: self)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "PiechViewController" {
+            guard let vc = segue.destination as? PiechViewController else { return }
+        }
+    }
 }
 
 extension ViewController: ChartViewDelegate {
